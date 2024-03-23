@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://cdn.enhancv.com/re_header_bckgr_43a53fb5b5.webp");
+}
+/* .namebar{
+
+    display: flex;
+    justify-content: space-between; */
+
+/*     
+}
+
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+}
+
+.links ul li a:hover{
+    background-color: blue;
+    padding: 8px 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    transition: 0.8s;
+    color: white;
+} */
+
+.nav-link{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover{
+    background-color: blue;
+    padding: 8px 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    transition: 0.8s;
+    color: white !important;
+}
+
+.portfolioimage{
+    width: 232px;
+    height: 50px;
+}
+.portfolioimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.private{
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction{
+    margin-top: 80px;
+}
+.selfintro{
+    margin-left: 30px;
+}
+
+
+.selfintro ul li{
+   margin: 0px 15px;
+}
+.selfintro h1{
+    color: rgb(88, 88, 231);
+    /* margin-left: 30px; */
+}
+.selfintro a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.selfintro a:hover{
+    background-color: transparent;
+    border: 1px solid blue;
+    color: black;
+    transition: 0.7s;
+}
+.photoframe{
+    width: 100%;
+    height: 500px;
+}
+.photoframe img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project{
+    margin-top: 100px;
+}
+.project h1{
+    text-align: center;
+    color: rgb(88, 88, 231);
+    padding-bottom: 30px;
+}
+#viewproject{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: 1px solid blue;
+    
+}
+#viewproject:hover{
+transition: 0.7s;
+    background-color: transparent;
+    border: 1px solid blue;
+    color: black;
+
+}
+.qualification{
+    margin-top: 100px;
+}
+.qualification h1{
+    text-align: center;
+    color: rgb(88, 88, 231);
+    padding-bottom: 20px;
+}
+.aggregate{
+    border: 1px solid grey;
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.aggregate h2{
+    font-style: italic;
+    font-weight: 700;
+
+}
+.skill{
+    margin-top: 100px;
+}
+.skill h1{
+    color: rgb(88, 88, 231);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #0c418a;
+    color: white;
+    padding: 30px;
+}
+.contact{
+    text-align: center;
+}
+
+.contact p{
+    text-align:left;
+}
+.contact1 a{
+    font-size: 30px;
+    padding: 0px 20px;
+    color: white;
+}
+.contact1 a i:hover{
+    transform: scale(2.5);
+    transition: 1s;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+
+}
+.contact a:hover{
+    color: blue;
+}

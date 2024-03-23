@@ -1,0 +1,48 @@
+@media screen and (min-width:320px) and (max-width:520px){
+
+    .namebar{
+        flex-direction: column;
+    }
+
+    .links ul{
+        flex-direction: column;
+    }
+    .photoframe {
+        margin-top: 30px !important;
+    }
+    .introduction {
+        margin-top: 40px !important;
+    }
+    .project {
+        margin-top: 40px !important;
+    }
+    .project1 {
+        margin: 10px 0px !important;
+    }
+    .project h1{
+        padding-bottom: 0px !important;
+    }
+    .qualification {
+        margin-top: 40px !important;
+    }
+    .aggregate{
+        margin: 10px !important;
+    }
+    .skill {
+        margin-top: 40px !important;
+    }
+}
+
+
+
+
+@media screen and (min-width:520px) and (max-width:1024px){
+
+    .links ul li a{
+        padding: 0px !important;
+        font-size: 15px !important;
+    }
+    .aggregate{
+        margin-bottom: 10px !important;
+    }
+}
